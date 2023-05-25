@@ -16,17 +16,26 @@ module.exports = {
         'tea-green': '#d7f2baff',
         'celadon': {
           '1': '#bde4a8ff',
-          '2': '#9cc69bff'
+          '2': '#9cc69bff',
+          '3': '#8ddca4ff'
         },
         'cambridge-blue': '#79b4a9ff',
         'reseda-green': '#676f54ff',
+        'licorice': '#291711ff',
+        'dark-moss-green': '#474b24ff',
+        'mint': '#5fbb97ff',
+        'finn': '#63326eff',
       }
     },
+  },
+  daisyui: {
+    themes: [],
   },
   plugins: [
     require('@tailwindcss/typography'),
     require('@tailwindcss/forms'),
     require('@tailwindcss/aspect-ratio'),
     require('@tailwindcss/container-queries'),
+    require("daisyui")
   ],
 }

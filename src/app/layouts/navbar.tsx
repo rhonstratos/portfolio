@@ -25,7 +25,7 @@ export default function Navbar({ navTitle }: { navTitle?: string }) {
 					whileHover={{ scale: 1.5 }}
 					whileTap={{ scale: 0.9 }}
 					src={logoImg.src}
-					className='w-10'></motion.img>
+					className='w-10 cursor-pointer'></motion.img>
 
 				<motion.h2
 					whileHover={{ scale: 1.1 }}
